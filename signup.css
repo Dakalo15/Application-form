@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(to right,teal,navy);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+} 
+.main{
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.form-fname{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-lname{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+.form-email{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-password{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;   
+}
+.btn{
+   width: 90%; 
+   padding: 10px;
+   background-color: aquamarine;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(1, 19, 19);  
+}

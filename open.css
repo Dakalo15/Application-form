@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to right,teal,navy);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    font-size: larger;
+    color: blue;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.details{
+    text-align: center;
+}
+.E-mail{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.pwd{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;       
+}
+.btn{
+    width: 90%; 
+    padding: 10px;
+    background-color: aquamarine;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(1, 19, 19);
+}
+.sign{
+    width: 90%; 
+    padding: 10px;
+    background-color: aquamarine;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+.sign:hover{
+    background-color: rgb(1, 19, 19);
+}
+.content{
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center   
+}
+
